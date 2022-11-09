@@ -1,0 +1,123 @@
+.footer {
+  background-color: #f7f7f7;
+  padding: 70px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.footer__top {
+  color: $grey;
+  margin-top: 50px;
+
+  @include tablet {
+    text-align: left;
+  }
+
+
+  p:first-child {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: $grey;
+    margin-bottom: 10px;
+    font-size: 15px;
+    display: block;
+  }
+
+}
+
+.footer__middle {
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+
+//  .twitter {
+//    height: 35px;
+//    width: 35px;
+//    border-radius: 50%;
+//    background-image: url("../assets/twitter-icon.png");
+//    background-size: cover;
+//    background-position: center;
+//    transition: 0.2s;
+//
+//    &:hover {
+//      opacity: 0.7;
+//    }
+//}
+
+  //.fb {
+  //  height: 35px;
+  //  width: 35px;
+  //  border-radius: 50%;
+  //  background-image: url("../assets/facebook-icon.png");
+  //  background-size: cover;
+  //  background-position: center;
+  //  margin: 0 15px;
+  //  transition: 0.2s;
+  //
+  //  &:hover {
+  //    opacity: 0.7;
+  //  }
+  //}
+
+  //.pinterest {
+  //    height: 35px;
+  //    width: 35px;
+  //    border-radius: 50%;
+  //    background-image: url("../assets/pintrest-icon.png");
+  //    background-size: cover;
+  //    background-position: center;
+  //    transition: 0.2s;
+  //
+  //  &:hover {
+  //    opacity: 0.7;
+  //  }
+  //  }
+  }
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: $grey;
+    font-size: 12px;
+    font-style: italic;
+    margin-right: 5px;
+  }
+}
+
+.fa-instagram, .fa-facebook {
+  font-size: 30px;
+  margin-right: 15px;
+  color: $hover;
+
+  &:hover {
+        opacity: 0.7;
+      }
+
+}
+
+.mail {
+  margin-top: 20px;
+}

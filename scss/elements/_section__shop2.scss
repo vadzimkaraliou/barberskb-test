@@ -1,0 +1,83 @@
+.section__shop {
+  height: 700px;
+
+  &-banner {
+    height: 600px;
+    background-image: url("./../assets/shop2.jpg");
+    background-position: center;
+    background-size: cover;
+
+    @include tablet {
+      background-position: top;
+    }
+  }
+
+  &__bottom {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    &-btn {
+        border: solid 1px #bbb;
+        padding: 20px 30px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 400;
+        font-size: 10px;
+        transition: 0.5s;
+
+        &:hover {
+          color: $hover;
+          border-color: $hover;
+        }
+
+        @include tablet {
+          border: solid 1px #bbb;
+          padding: 15px 50px;
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-weight: 400;
+          font-size: 14px;
+        }
+
+      }
+    }
+  }
+
+
+
+
+
+  //&-btn {
+  //  border: solid 1px #bbb;
+  //  padding: 15px 30px;
+  //  color: #fff;
+  //  text-transform: uppercase;
+  //  letter-spacing: 3px;
+  //  font-weight: 400;
+  //  font-size: 10px;
+  //  transition: 0.5s;
+  //  margin-bottom: 20px;
+  //
+  //  &:hover {
+  //    color: $hover;
+  //    border-color: $hover;
+  //  }
+  //
+  //  @include tablet {
+  //    border: solid 1px #bbb;
+  //    padding: 15px 50px;
+  //    color: #fff;
+  //    text-transform: uppercase;
+  //    letter-spacing: 3px;
+  //    font-weight: 400;
+  //    font-size: 14px;
+  //  }
+  //
+  //}
+
+

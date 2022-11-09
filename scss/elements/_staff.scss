@@ -1,0 +1,96 @@
+.section__staff {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.section__staff__persons {
+  @include tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.section__staff__persons-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    width: 95%;
+  }
+
+  @include tablet {
+    width: 30%;
+  }
+}
+
+.section__staff__person1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../assets/kostek.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s;
+
+
+  &:hover {
+    @include tablet {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.section__staff__person2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../assets/olga.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s;
+
+  &:hover {
+    @include tablet {
+      transform: scale(1.2);
+    }
+  }
+
+}
+
+.section__staff__person3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../assets/szymon.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s;
+
+  &:hover {
+    @include tablet {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.section__staff__name {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.section__staff__line {
+  width: 80%;
+  height: 3px;
+  background-color: $hover;
+  margin-top: 20px;
+
+}

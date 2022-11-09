@@ -1,0 +1,55 @@
+@use "sass:color";
+
+.contacts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+
+  &__logo {
+    margin-bottom: 40px;
+    width: 150px;
+  }
+
+  &__text {
+    text-align: center;
+    color: $grey;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-style: italic;
+    width: 98%;
+  }
+
+  .contact__forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contacts__forms__input {
+      border: solid 1px #d3d7d9;
+      padding: 20px;
+      width: 65%;
+      max-width: 400px;
+      color: #929292;
+      font-size: 12px;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-right: 2px;
+    }
+
+    .contact__forms__btn {
+      background-color: $hover;
+      border: none;
+      color: #fff;
+      font-weight: 300;
+      padding: 20px 40px;
+
+      &:hover {
+        background-color: color.scale($hover, $lightness: 20%);
+      }
+    }
+  }
+}
+
+

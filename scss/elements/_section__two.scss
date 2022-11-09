@@ -1,0 +1,73 @@
+.section__two {
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left__img {
+    width: 100%;
+
+    @include tablet {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .section__two__right {
+    text-align: center;
+    margin: 80px auto;
+    margin-bottom: 0;
+
+
+    @include tablet {
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+
+    &__logo-top {
+      width: 100px;
+    }
+
+    //.logo_img {
+    //  width: 118px;
+    //  height: 113px;
+    //  background-image: url("../assets/bicycle-logo.png");
+    //  background-repeat: no-repeat;
+    //  background-size: contain;
+    //}
+
+    &__title {
+      text-align: center;
+      text-transform: uppercase;
+      color: #353738;
+      letter-spacing: 2px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+
+    &__text {
+      text-align: center;
+      margin: 40px 60px 80px;
+      font-size: 14px;
+      color: $grey;
+      font-weight: 300;
+      word-spacing: 2px;
+      line-height: 1.8em;
+    }
+
+    &__picture {
+      margin-top: 70px;
+      width: 100%;
+      @include tablet {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.additional {
+  padding: 10px 20px;
+  font-size: 14px;
+}
