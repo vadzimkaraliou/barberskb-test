@@ -132,7 +132,7 @@
   border-color: black;
 }
 
-.header__container__navigation__nav_element, .header__container__navigation__header-point {
+.header__container__navigation__nav_element, .header__container__navigation__header-point, .header__container__navigation__header-logo {
   display: none;
 
   @include tablet {
