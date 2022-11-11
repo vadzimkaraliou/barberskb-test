@@ -50,3 +50,13 @@ btns.forEach((element) => {
         firstYes.classList.add("d-none");
     })
 })
+
+// MOBILE NAVIGATION
+
+const mobNav = document.querySelector(".nav-logo");
+const navLink = document.querySelector(".mobile-nav-elements");
+
+mobNav.addEventListener("click", ()=> {
+    navLink.classList.toggle("toggle");
+    console.log("test");
+});
