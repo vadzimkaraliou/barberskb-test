@@ -24,6 +24,11 @@
     &:hover {
       color: black;
     }
+    
+    @include tablet {
+      display: none;
+    }
+    
   }
 
 .nav-logo {
