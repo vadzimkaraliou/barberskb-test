@@ -38,3 +38,26 @@
 .toggle {
   display: flex;
 }
+
+.nav-cover {
+  margin: 15px 15px;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    border: 3px solid $hover;
+  }
+
+  @include tablet {
+    display: none;
+  }
+
+}
