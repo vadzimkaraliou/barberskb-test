@@ -1365,6 +1365,12 @@ a {
   color: black;
 }
 
+@media (min-width: 1350px) {
+  .mobile-nav-element {
+    display: none;
+  }
+}
+
 .nav-logo {
   width: 100px;
   margin: 15px 15px;
