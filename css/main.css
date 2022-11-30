@@ -666,6 +666,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
 .section__offers__booking-title {
   padding-top: 120px;
