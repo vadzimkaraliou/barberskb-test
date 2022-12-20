@@ -1,5 +1,5 @@
-# BARBERS KB | Barbershop in Warsaw
+# BARBERS KB | Barbershop in Warsaw | 
 
 HTML / SASS / JavaScript. 
-Landing page for barbershop with some interactive elements. 
-Not for commercial use.
+Landing page for barbershop (imitation) with some interactive elements. 
+Educational project. Not for commercial use.
