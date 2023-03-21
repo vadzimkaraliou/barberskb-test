@@ -1,6 +1,6 @@
 // SPECIAL OFFER TIMER
 
-let countDownDate = new Date("Feb 1, 2023 23:59:59").getTime();
+let countDownDate = new Date("Jun 1, 2023 23:59:59").getTime();
 
 let x = setInterval(function() {
     let now = new Date().getTime();
